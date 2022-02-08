@@ -5,9 +5,14 @@ export const Home = () => {
   return (
     <Container>
       <div className="container-fluid bg-light text-dark p-5">
-        <Link className="btn btn-primary" to="/products">
-          Click me!
-        </Link>
+        <div className="container bg-light p-5">
+          <h1 className="display-4 fw-bold">WELCOME TO OUR ONLINE STORE</h1>
+          <hr />
+          <p>Let's shopping</p>
+          <Link className="btn btn-primary" to="/products">
+            Click me!
+          </Link>
+        </div>
       </div>
     </Container>
   )
